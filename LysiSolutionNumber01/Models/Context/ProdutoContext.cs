@@ -10,7 +10,8 @@ namespace TodoApi.Models
         {
         }
 
-        public DbSet<Produto> Registros { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
+        public DbSet<Grupos> Grupos { get; set; }
 
     }
 }
