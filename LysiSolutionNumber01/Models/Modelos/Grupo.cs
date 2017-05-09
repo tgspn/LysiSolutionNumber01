@@ -11,5 +11,6 @@ namespace LysiSolutionNumber01.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
         public string Nome { get; set; }        
+        public virtual ICollection<Produto> Produtos{get;set;}
     }
 }
